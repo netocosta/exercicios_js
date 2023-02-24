@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+button {
+    padding: 10px 15px;
+}
+
+.verde {
+    background: #060;
+    color: #FFF;
+}
+
+.vermelho {
+    background: #600;
+    color: #FFF;
+}
