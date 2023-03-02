@@ -10,11 +10,11 @@ function minhaFuncao() {
 }
 
 function retornoDaPromise() {
-    document.write('Ok, promise resolvida!')
+    console.log('Ok, promise resolvida!')
 }
 
 function erroDaPromise() {
-    document.write('Xi!! Deu erro')
+    console.log('Xi!! Deu erro')
 }
 
 minhaFuncao()

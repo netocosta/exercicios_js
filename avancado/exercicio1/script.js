@@ -21,11 +21,10 @@ const alunosFinalForEach = []
 alunos.forEach((item) => {
     alunosFinalForEach.push(`${item.nome} ${item.sobrenome}`)
 })
-document.write(alunosFinalForEach)
+console.log(alunosFinalForEach)
 
-document.write("<br><br>")
 
 const alunosFinalMap = alunos.map((item) => {
     return `${item.nome} ${item.sobrenome}`
 })
-document.write(alunosFinalMap)
+console.log(alunosFinalMap)
