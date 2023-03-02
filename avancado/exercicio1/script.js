@@ -23,6 +23,8 @@ alunos.forEach((item) => {
 })
 document.write(alunosFinalForEach)
 
+document.write("<br><br>")
+
 const alunosFinalMap = alunos.map((item) => {
     return `${item.nome} ${item.sobrenome}`
 })
