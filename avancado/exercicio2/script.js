@@ -26,4 +26,4 @@ const alunos = [
 const alunosFinal = alunos.filter((item) => {
     return item.nota >= media ? true : false
 })
-console.log(alunosFinal)
+document.write(alunosFinal)

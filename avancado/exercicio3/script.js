@@ -18,4 +18,4 @@ const nomeAluno = `${aluno.nome} ${aluno.sobrenome}`
 const { soma, contador } = alunosFinal
 const media = soma / contador
 
-console.log(`A média da ${nomeAluno} foi ${media} para o total de ${contador} bimestres.`)
+document.write(`A média da ${nomeAluno} foi ${media} para o total de ${contador} bimestres.`)
